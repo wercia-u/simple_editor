@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.aktywny{
+	background-color: #001651 !important;
+	color: #fff;
+}
+.anim{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: al 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.box, .background, .font, .text-area{
+	margin: 5px 20px 5px 20px;
+	width: 620px;
+	height: auto;
+}
+
+.background{
+	margin-top: 40px;
+}
+
+.box_kolorow{
+	margin: 0px 0 3px 0;
+	height: 55px;
+	padding: 0px;
+}
+
+.box_knefli{
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+.label{
+		padding:0;
+		text-align: left;
+		color:#000;
+		float:left;
+		width:100%;
+		height: 12px;
+}
+
+.knefel{
+		text-align:center;
+		padding: 5px 0px;
+		background : #eee;
+		float: left;
+		width:6.25%;
+		cursor:pointer;
+}
+
+.red{
+	margin: 0;
+	padding: 0 15px;
+	background: #FF0000;
+	height: 100%;
+	border-radius: 2px;
+}
+
+.blue{
+	margin: 0;
+	padding: 0 15px;
+	background: #0043FF;
+	height: 100%;
+	border-radius: 2px;
+}
+
+.green{
+	margin: 0;
+	padding: 0 15px;
+	background: #69D300;
+	height: 100%;
+	border-radius: 2px;
+}
+
+p{
+	max-width: 75%;
+	height: 75%;
+	margin: 75px auto;
+	text-align: center;
+	vertical-align: midle;
+	font-size: 20px;
+	word-break: break-all;
+}
+
+	
+.wynik{
+	margin: 40px auto;
+	width: 600px;
+	height: 350px;
+	border: 1px solid grey;
+	border-radius: 25px;
+}
+
+
+
+
